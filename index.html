@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>
+		Laura and Noel Pitch a Project
+	</title>
+</head>
+
+<body>
+	<h1>
+		About SyllabusScheduler
+	<h1/>
+	<h2>
+	What it does!
+	</h2>
+	Reads your syllabi and makes a calendar of classes and deadlines/due dates. 
+	<br>
+	Connects with your google calendar so you can have all of your events in one place. 
+	<br>
+	<hr> <!--This is an HTML comment. It is reminding me that there is a horizontal line here -->
+	<h2>
+	Who needs it?
+	</h2>
+	Students who are tired of retyping their syllabi in order to add the relevant details to their calendars. 
+	<br>
+	Students who forget things. 
+	<br>
+	<hr>
+	<h2>
+	How to use it!
+	</h2>
+	These images show a mock up of the welcome menu, syllabus upload page, and the event editor page.
+	<img id="mockups" alt = mockup onclick ="changeImage()" src="mockscreenshotwelcomepage.png"/>
+
+	
+	<script>
+	function changeImage(){
+		var image = document.getElementById('mockups');
+		if (image.src.match("welcome")) {
+        image.src = "mockscreenshotuploadpage.png";
+		}
+		else if (image.src.match("upload")){
+			image.src = "mockscreenshoteventpage.png";
+		}
+		else{
+			image.src = "mockscreenshotwelcomepage.png";
+		}
+		}
+	</script>
+	
+	
+	<br>
+	<hr>
+	<a href="aboutus.html">About the team</a>
+</body>
+</html>

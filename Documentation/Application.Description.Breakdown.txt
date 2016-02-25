@@ -1,0 +1,33 @@
+Application Description Breakdown
+This web application will have five main parts: the webpage, reading the syllabus and extracting data from it, building a new calendar from the extracted data, and giving that calendar to the user.  
+
+The Webpage:
+	Should display information about what it does
+	Should prompt the user to choose what kind of calendar they want to be given
+		Google calendar
+		Printable calendar
+	Should allow the user to upload their calendar
+
+Reading the Syllabus
+	Use visual basic to parse data, especially data from tables
+	Consider trying to learn the basics of how word’s XML works
+	GOAL: read the text, find numbers and symbols, find information in tables, without losing the implicit information based on the location of the text in a table. We need more than just plaintext. 
+
+Extracting data
+	Use AI methods to search for things that look like dates, and/or days of the week
+	Try to pair the date with the information near it
+		Things in the same row of the table
+		Same sentence or same line?
+	For each day that is found, build an event object for it to store the relevant information.
+		Used to build the actual calendar
+		Multiple events in one day?
+		Finding times vs all day events?
+
+Building the calendar
+	Take each event built in the previous stage and either:
+	1)	Fill in a printable calendar square
+	2) Use the google calendars API (with user authentication) to build a google calendar of events for the class
+
+Giving the calendar to the user
+	Display a screen with the printable calendar OR
+	Redirect the user to their google calendar page

@@ -5,19 +5,17 @@
 </title>
 <body>
 <?php>
- $username;
- $password;
- $arrivaltime;
-
+ 	$username =  $_POST["name"];
+ 	$password = $_POST["password"];
+	 //$arrivaltime;
+ 
 	<h1> Welcome </h1>
-	<?php
 	//ini_set('display_errors', 1);
 	echo "your name is: ";
 	//echo $_POST["name"]; 
 	//echo "<br>"
 	//echo "Your password is: ";
 	//echo $_POST["password"]; 
-	?> 
 
 
 <?>

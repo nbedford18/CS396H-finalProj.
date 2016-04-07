@@ -2,9 +2,9 @@
 <html>
 <body>
 <?php
- 	//$username =  $_POST["name"];
- 	//$password = $_POST["password"];
-	 //$arrivaltime;
+ 	$username =  $_POST["name"];
+ 	$password = $_POST["password"];
+	$arrivaltime;
 
 	//ini_set('display_errors', 1);
 	echo "your name is: ";

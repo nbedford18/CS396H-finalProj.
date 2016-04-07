@@ -8,10 +8,10 @@
 
 	//ini_set('display_errors', 1);
 	echo "your name is: ";
-	echo $_POST["name"]; 
+	echo username; 
 	echo "<br>";
 	echo "Your password is: ";
-	echo $_POST["password"]; 
+	echo password; 
 
 
 ?>

@@ -11,10 +11,12 @@
 
 	<h1> Welcome </h1>
 	<?php
-	echo $_POST["name"]; 
-	echo "<br>"
-	echo "Your password is: ";
-	echo $_POST["password"]; 
+	//ini_set('display_errors', 1);
+	echo "your name is: ";
+	//echo $_POST["name"]; 
+	//echo "<br>"
+	//echo "Your password is: ";
+	//echo $_POST["password"]; 
 	?> 
 
 

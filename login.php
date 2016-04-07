@@ -5,8 +5,8 @@
 </title>
 <body>
 <?php>
- 	$username =  $_POST["name"];
- 	$password = $_POST["password"];
+ 	//$username =  $_POST["name"];
+ 	//$password = $_POST["password"];
 	 //$arrivaltime;
  
 	<h1> Welcome </h1>

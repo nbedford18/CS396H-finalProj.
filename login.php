@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<?php>
+<?php
  	//$username =  $_POST["name"];
  	//$password = $_POST["password"];
 	 //$arrivaltime;
@@ -14,6 +14,6 @@
 	//echo $_POST["password"]; 
 
 
-<?>
+?>
 </body>
 </html>

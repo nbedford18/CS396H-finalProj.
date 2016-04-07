@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <title>
 	database login page
@@ -8,11 +9,13 @@
  $password;
  $arrivaltime;
 
-	Welcome <?php
+	<h1> Welcome </h1>
+	<?php
 	echo $_POST["name"]; 
-	?>
-	<br>
-	Your password is: <?php echo $_POST["password"]; ?> 
+	echo "<br>"
+	echo "Your password is: ";
+	echo $_POST["password"]; 
+	?> 
 
 
 <?>

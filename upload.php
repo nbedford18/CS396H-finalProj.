@@ -16,17 +16,17 @@ $uploadOk = 1;
 $fileType = pathinfo($target_file,PATHINFO_EXTENSION);
 //check if the file already exists
 if (file_exists($target_file)) {
-    echo "Sorry, file already exists. Try renaming it.\n";
+    echo "Sorry, file already exists. Try renaming it.<br>";
     $uploadOk = 0;
 }
 //check if the file is WAY TOO BIG
 if ($_FILES["fileToUpload"]["size"] > 500000) {
-    echo "Sorry, your file is too large.\n";
+    echo "Sorry, your file is too large.<br>";
     $uploadOk = 0;
 }
 //check if the file has a valid filetype
 if($fileType != "pdf" && $fileType != "doc" && $fileType != "odot" && $fileType != "docx") {
-    echo "Sorry, only PDF, DOC, DOCX & ODOT files are allowed. Your filetype is " . $fileType ."\n";
+    echo "Sorry, only PDF, DOC, DOCX & ODOT files are allowed. Your filetype is " . $fileType ."<br>";
     $uploadOk = 0;
 }
 //check if the file should not be uploaded

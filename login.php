@@ -8,10 +8,10 @@
 
 	//ini_set('display_errors', 1);
 	echo "your name is: ";
-	echo username; 
+	echo $username; 
 	echo "<br>";
 	echo "Your password is: ";
-	echo password; 
+	echo $password; 
 
 
 ?>

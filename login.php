@@ -13,7 +13,8 @@
 	echo "Your password is: ";
 	echo $password; 
 	echo "<br>";
-	echo "The current time is $arrivaltime[hours] : $arrivaltime[minutes] : $arrivaltime[seconds], $arrivaltime[month], $arrivaltime[mday] , $arrivaltime[year]";
+	//echo "The current time is $arrivaltime[hours] : $arrivaltime[minutes] : $arrivaltime[seconds], $arrivaltime[month], $arrivaltime[mday] , $arrivaltime[year]";
+	echo $arrivaltime[hours];
 	//print_r (getDate($arrivaltime));
 	
 ?>

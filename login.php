@@ -13,7 +13,7 @@
 	echo "Your password is: ";
 	echo $password; 
 	echo "<br>";
-	echo "The current time is " . $arrivaltime;
+	echo "The current time is " . getDate($arrivaltime);
 
 
 ?>

@@ -11,8 +11,9 @@
 	echo $username; 
 	echo "<br>";
 	echo "Your password is: ";
-	echo $password; 
-	echo "The current time is " . $time;
+	echo $password;
+	echo "<br>";
+	echo "The current time is " . $arrivaltime;
 
 
 ?>

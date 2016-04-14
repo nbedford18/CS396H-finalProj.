@@ -13,8 +13,9 @@
 	echo "Your password is: ";
 	echo $password; 
 	echo "<br>";
-	echo "The current time is ";
-	print_r (getDate($arrivaltime));
+	echo "The current time is " . $arrivaltime[hours] . $arrivaltime[minutes] . $arrivaltime[seconds] . $arrivaltime[month] . $arrivaltime[mday] . $arrivaltime[year] . "<br>";
+	//print_r (getDate($arrivaltime));
+	
 ?>
 </body>
 </html>
